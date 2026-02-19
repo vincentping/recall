@@ -56,5 +56,9 @@ resources/icons/spinbox_*.svg
 *.temp
 .cache/
 
+# Internal design documents (not for public)
+docs/user_facing_design.md
+docs/question_management_design.md
+
 # Claude AI files
 .claude/

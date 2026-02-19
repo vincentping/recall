@@ -14,6 +14,10 @@ A personal question bank for focused study and exam prep. Built with PySide6 and
 - **Multi-language** - English and Chinese (extensible)
 - **Theming** - Light and dark themes with adjustable font size
 
+## Download
+
+Pre-built Windows executable is available on the [Releases](https://github.com/vincentping/recall/releases) page — no Python installation required.
+
 ## Getting Started
 
 **Requirements:** Python 3.10+
@@ -67,6 +71,10 @@ pytest tests/
 # Compile translations after editing .ts files
 python scripts/build_translations.py
 ```
+
+## Documentation
+
+- [User Guide](docs/HELP.md)
 
 ## License
 
