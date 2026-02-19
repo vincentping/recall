@@ -1,0 +1,105 @@
+{
+  "name": "Dark",
+  "name_key": "theme.dark",
+  "description": "Dark theme for reduced eye strain in low-light environments",
+  "description_key": "theme.dark_desc",
+  "colors": {
+    "primary": "#4A9EFF",
+    "primary_hover": "#6BB3FF",
+    "primary_pressed": "#2980E0",
+    "secondary": "#2B2B2B",
+    "background": "#1E1E1E",
+    "surface": "#252525",
+    "text": "#E0E0E0",
+    "text_disabled": "#606060",
+    "border": "#3F3F3F",
+    "menu_bg": "#2B2B2B",
+    "menu_hover": "#353535",
+    "button_bg": "#3C3C3C",
+    "button_hover": "#4A4A4A",
+    "button_pressed": "#2E2E2E",
+    "input_bg": "#2B2B2B",
+    "input_border": "#3F3F3F",
+    "input_focus": "#4A9EFF",
+    "tooltip_bg": "#3C3C3C",
+    "tooltip_border": "#5F5F5F",
+    "scroll_bg": "#2B2B2B",
+    "scroll_handle": "#505050",
+    "scroll_handle_hover": "#606060"
+  },
+  "fonts": {
+    "family": "Segoe UI, Arial, sans-serif",
+    "size_base": 10,
+    "size_title": 14
+  },
+  "spacing": {
+    "border_radius": 4,
+    "border_width": 1
+  },
+  "components": {
+    "window": {
+      "background": "#1E1E1E"
+    },
+    "button": {
+      "background": "#3C3C3C",
+      "background_hover": "#4A4A4A",
+      "background_pressed": "#2E2E2E",
+      "text": "#E0E0E0",
+      "border": "#3F3F3F",
+      "border_radius": 4,
+      "padding": "6px 12px",
+      "min_height": 28
+    },
+    "button_primary": {
+      "background": "#4A9EFF",
+      "background_hover": "#6BB3FF",
+      "background_pressed": "#2980E0",
+      "text": "#FFFFFF",
+      "border": "#4A9EFF"
+    },
+    "input": {
+      "background": "#2B2B2B",
+      "text": "#E0E0E0",
+      "border": "#3F3F3F",
+      "border_focus": "#4A9EFF",
+      "border_radius": 4,
+      "padding": "6px 8px",
+      "min_height": 28
+    },
+    "menu": {
+      "background": "#2B2B2B",
+      "text": "#E0E0E0",
+      "item_hover": "#353535",
+      "item_selected": "#4A9EFF",
+      "separator": "#3F3F3F"
+    },
+    "table": {
+      "background": "#1E1E1E",
+      "alternate_row": "#252525",
+      "header_bg": "#2B2B2B",
+      "header_text": "#E0E0E0",
+      "grid": "#3F3F3F",
+      "selection": "#2C5F8D"
+    },
+    "scrollbar": {
+      "background": "#2B2B2B",
+      "handle": "#505050",
+      "handle_hover": "#606060",
+      "width": 12,
+      "border_radius": 6
+    },
+    "tooltip": {
+      "background": "#3C3C3C",
+      "text": "#E0E0E0",
+      "border": "#5F5F5F"
+    },
+    "practice": {
+      "correct_bg": "#1b3a26",
+      "correct_border": "#4CAF50",
+      "incorrect_bg": "#3a1b1b",
+      "incorrect_border": "#EF5350",
+      "timer_warning": "#FFA726",
+      "timer_danger": "#EF5350"
+    }
+  }
+}

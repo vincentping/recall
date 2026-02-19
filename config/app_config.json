@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "ReCall",
+    "version": "0.9.1"
+  },
+  "window": {
+    "default_width": 1000,
+    "default_height": 700,
+    "default_x": 100,
+    "default_y": 100
+  },
+  "language": {
+    "default": "en_US",
+    "available": ["en_US", "zh_CN"]
+  },
+  "database": {
+    "path": "data/default.db",
+    "backup_dir": "data/backups"
+  },
+  "resources": {
+    "translations_dir": "resources/translations",
+    "themes_dir": "resources/themes"
+  },
+  "review": {
+    "default_question_count": 20,
+    "shuffle_questions": true,
+    "shuffle_answers": true
+  },
+  "ui": {
+    "show_question_id": false,
+    "confirm_before_delete": true,
+    "auto_save_preferences": true
+  },
+  "theme": {
+    "default": "default",
+    "font_size": 10
+  }
+}

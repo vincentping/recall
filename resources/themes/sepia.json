@@ -1,0 +1,105 @@
+{
+  "name": "Sepia",
+  "name_key": "theme.sepia",
+  "description": "Warm sepia theme for extended reading sessions",
+  "description_key": "theme.sepia_desc",
+  "colors": {
+    "primary": "#8B6914",
+    "primary_hover": "#A07820",
+    "primary_pressed": "#6B5010",
+    "secondary": "#D4C5A9",
+    "background": "#F4ECD8",
+    "surface": "#EDE0C4",
+    "text": "#433422",
+    "text_disabled": "#A89070",
+    "border": "#C4A882",
+    "menu_bg": "#EDE0C4",
+    "menu_hover": "#D4C5A9",
+    "button_bg": "#D4C5A9",
+    "button_hover": "#C4B090",
+    "button_pressed": "#B49878",
+    "input_bg": "#FAF5E8",
+    "input_border": "#C4A882",
+    "input_focus": "#8B6914",
+    "tooltip_bg": "#EDE0C4",
+    "tooltip_border": "#C4A882",
+    "scroll_bg": "#EDE0C4",
+    "scroll_handle": "#C4A882",
+    "scroll_handle_hover": "#8B6914"
+  },
+  "fonts": {
+    "family": "Segoe UI, Arial, sans-serif",
+    "size_base": 10,
+    "size_title": 14
+  },
+  "spacing": {
+    "border_radius": 4,
+    "border_width": 1
+  },
+  "components": {
+    "window": {
+      "background": "#F4ECD8"
+    },
+    "button": {
+      "background": "#D4C5A9",
+      "background_hover": "#C4B090",
+      "background_pressed": "#B49878",
+      "text": "#433422",
+      "border": "#C4A882",
+      "border_radius": 4,
+      "padding": "6px 12px",
+      "min_height": 28
+    },
+    "button_primary": {
+      "background": "#8B6914",
+      "background_hover": "#A07820",
+      "background_pressed": "#6B5010",
+      "text": "#FAF5E8",
+      "border": "#8B6914"
+    },
+    "input": {
+      "background": "#FAF5E8",
+      "text": "#433422",
+      "border": "#C4A882",
+      "border_focus": "#8B6914",
+      "border_radius": 4,
+      "padding": "6px 8px",
+      "min_height": 28
+    },
+    "menu": {
+      "background": "#EDE0C4",
+      "text": "#433422",
+      "item_hover": "#D4C5A9",
+      "item_selected": "#8B6914",
+      "separator": "#C4A882"
+    },
+    "table": {
+      "background": "#F4ECD8",
+      "alternate_row": "#EDE0C4",
+      "header_bg": "#D4C5A9",
+      "header_text": "#433422",
+      "grid": "#C4A882",
+      "selection": "#D4B87A"
+    },
+    "scrollbar": {
+      "background": "#EDE0C4",
+      "handle": "#C4A882",
+      "handle_hover": "#8B6914",
+      "width": 12,
+      "border_radius": 6
+    },
+    "tooltip": {
+      "background": "#EDE0C4",
+      "text": "#433422",
+      "border": "#C4A882"
+    },
+    "practice": {
+      "correct_bg": "#D8EAC4",
+      "correct_border": "#5A8A3A",
+      "incorrect_bg": "#EAC4C4",
+      "incorrect_border": "#A83A3A",
+      "timer_warning": "#C87820",
+      "timer_danger": "#A83A3A"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Nord",
+  "name_key": "theme.nord",
+  "description": "Nord theme - cool Arctic color palette",
+  "description_key": "theme.nord_desc",
+  "colors": {
+    "primary": "#88C0D0",
+    "primary_hover": "#8FBCBB",
+    "primary_pressed": "#81A1C1",
+    "secondary": "#434C5E",
+    "background": "#2E3440",
+    "surface": "#3B4252",
+    "text": "#ECEFF4",
+    "text_disabled": "#4C566A",
+    "border": "#4C566A",
+    "menu_bg": "#3B4252",
+    "menu_hover": "#434C5E",
+    "button_bg": "#3B4252",
+    "button_hover": "#434C5E",
+    "button_pressed": "#2E3440",
+    "input_bg": "#3B4252",
+    "input_border": "#4C566A",
+    "input_focus": "#88C0D0",
+    "tooltip_bg": "#434C5E",
+    "tooltip_border": "#5E81AC",
+    "scroll_bg": "#3B4252",
+    "scroll_handle": "#4C566A",
+    "scroll_handle_hover": "#5E81AC"
+  },
+  "fonts": {
+    "family": "Segoe UI, Arial, sans-serif",
+    "size_base": 10,
+    "size_title": 14
+  },
+  "spacing": {
+    "border_radius": 4,
+    "border_width": 1
+  },
+  "components": {
+    "window": {
+      "background": "#2E3440"
+    },
+    "button": {
+      "background": "#3B4252",
+      "background_hover": "#434C5E",
+      "background_pressed": "#2E3440",
+      "text": "#ECEFF4",
+      "border": "#4C566A",
+      "border_radius": 4,
+      "padding": "6px 12px",
+      "min_height": 28
+    },
+    "button_primary": {
+      "background": "#88C0D0",
+      "background_hover": "#8FBCBB",
+      "background_pressed": "#81A1C1",
+      "text": "#2E3440",
+      "border": "#88C0D0"
+    },
+    "input": {
+      "background": "#3B4252",
+      "text": "#ECEFF4",
+      "border": "#4C566A",
+      "border_focus": "#88C0D0",
+      "border_radius": 4,
+      "padding": "6px 8px",
+      "min_height": 28
+    },
+    "menu": {
+      "background": "#3B4252",
+      "text": "#ECEFF4",
+      "item_hover": "#434C5E",
+      "item_selected": "#88C0D0",
+      "separator": "#4C566A"
+    },
+    "table": {
+      "background": "#2E3440",
+      "alternate_row": "#3B4252",
+      "header_bg": "#3B4252",
+      "header_text": "#D8DEE9",
+      "grid": "#4C566A",
+      "selection": "#4C566A"
+    },
+    "scrollbar": {
+      "background": "#3B4252",
+      "handle": "#4C566A",
+      "handle_hover": "#5E81AC",
+      "width": 12,
+      "border_radius": 6
+    },
+    "tooltip": {
+      "background": "#434C5E",
+      "text": "#ECEFF4",
+      "border": "#5E81AC"
+    },
+    "practice": {
+      "correct_bg": "#2d4035",
+      "correct_border": "#A3BE8C",
+      "incorrect_bg": "#3d2d2d",
+      "incorrect_border": "#BF616A",
+      "timer_warning": "#EBCB8B",
+      "timer_danger": "#BF616A"
+    }
+  }
+}
