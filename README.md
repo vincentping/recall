@@ -4,6 +4,12 @@
 
 A personal question bank for focused study and exam prep. Built with PySide6 and SQLite.
 
+## Screenshots
+
+![Home Page](docs/main.png)
+
+![Practice Mode](docs/practice.png)
+
 ## Features
 
 - **Multi-exam support** - Create, switch, rename, and delete exam databases
